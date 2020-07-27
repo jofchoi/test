@@ -243,7 +243,152 @@ public class inte {
 		}
 		
 		
+		
+		int num =1;
+		int sum =0;
+		
+		while(num <= 10) {
+			
+			sum += num;
+			num++;
+		}
+		
+		System.out.println("1부터 10의 합은 " + sum + "입니다." );
+		
+	
+		
+		int num = 1;
+		int sum = 0;
+		
+		do{
+			
+			sum += num;
+			num++;
+			
+		}
+		
+		while(num<=50);
+			
+			
+			System.out.println("1~50까지의 합은" + sum + "입니다.");
+		
+	int num;
+	
+	for(num=1; num<=10; num++)
+	{
+		System.out.println(num);
+	}
+		
+		
+		
+	int i;
+	int sum;
+		
+	for(i = 1, sum = 0; i <= 10; i++)
+	{
+		sum += i;
+	}
+		
+	System.out.println("sum of 1~10 is " + sum);
+
+	
+		
+	
+	int i;
+	String c = "hello";
+	
+	for(i = 1; i < 10; i++);
+	{
+		System.out.println(c + i);
+	
+	}
+		
+	*/	
+		/*
+		
+	int dan;
+	int times;
+	
+	for(dan = 2; dan <= 9; dan++) {
+		
+		for(times = 1; times <= 9; times++) {
+			
+			System.out.println(dan + "X" + times + "=" + dan*times);
+			
+		}
+		
+		System.out.println( );
+	}
+		
+		
 		*/
+		
+		int i;
+
+		for(i = 1; i < 10; i++);
+		{
+			System.out.println("hello" + i);
+		
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 		
 		
