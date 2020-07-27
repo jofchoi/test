@@ -205,17 +205,45 @@ public class inte {
 		
 		System.out.println(ranking +"등 메달의 색깔은 " + medalcolor + "입니다.");
 		
+		
+		
+		String medal = "gold";
+		
+		switch(medal) {
+		
+		case "gold":
+		System.out.println("금메달입니다.");
+		break;
+		case "silver":
+		System.out.println("은메달입니다.");
+		break;
+		case "bronze":
+		System.out.println("동메달입니다.");
+		break;
+		default:
+		System.out.println("노메달입니다.");
+		break;	
+		}
+		
+			
+		
+		int floor = 2;
+	
+		switch(floor){
+			case 1 : System.out.println("약국입니다.");
+			break;
+			case 2 : System.out.println("정형외과입니다.");
+			break;
+			case 3 : System.out.println("피부과입니다.");
+			break;
+			case 4 : System.out.println("치과입니다.");
+			break;
+			case 5 : System.out.println("헬스클럽입니다.");
+			break;
+		}
+		
+		
 		*/
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
 		
 		
 		
