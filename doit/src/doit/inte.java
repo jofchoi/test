@@ -88,7 +88,7 @@ public class inte {
 		
 		System.out.println(ch);
 		
-		*/
+		
 		
 		int num = 10;
 		boolean isEven;
@@ -99,6 +99,94 @@ public class inte {
 		
 		
 		
+		int i = 10;
+		if(i>11) {
+			System.out.println("TRUE");
+		}
+		
+		else {
+			System.out.println("FALSE");
+		
+		}
+		
+	
+	int i = 7;
+	if(i>=8) {
+		System.out.println("학교에 다닙니다.");
+	}
+	else {
+		System.out.println("학교에 다니지 않습니다.");
+	}
+	
+	
+	
+	char gender = 'F';
+		
+		if(gender == 'F') {
+			System.out.println("여성입니다.");
+		}
+		else {
+			System.out.println("남성입니다.");
+		}
+	int age = 60;
+	int charge;
+	 
+		if(age<8) {
+			charge = 1000;
+			System.out.println("취학 전 아동입니다.");
+		}
+		else if(age<14) {
+			charge = 2000;
+			System.out.println("초등학생입니다.");
+		}
+		else if(age<20) {
+			charge = 2500;
+			System.out.println("중고등학생입니다.");
+		}
+		else if(age<60){
+			charge = 3000;
+			System.out.println("일반인 입니다.");
+		}
+		else {
+			charge = 0;
+			System.out.println("경로우대입니다.");
+		}
+			System.out.println("입장료는 "+charge+"원 입니다.");
+		
+		
+	*/
+		
+		
+		int score =80;
+		char grade = 'F';
+				
+		if(score<60) {
+			System.out.println(grade);
+		}
+		else if(score<70) {
+			grade = 'D';
+			System.out.println(grade);
+		}
+		else if(score<80) {
+			grade = 'C';
+			System.out.println(grade);
+		}
+		else if(score<90) {
+			grade = 'B';
+			System.out.println(grade);
+		}
+		else {
+			grade = 'A';
+			System.out.println(grade);
+		}
+	
+		
+		
+		
+	
+	
+	
+	
 	}
 
 }
